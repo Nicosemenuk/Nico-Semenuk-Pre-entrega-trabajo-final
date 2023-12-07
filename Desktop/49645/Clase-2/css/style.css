@@ -1,0 +1,26 @@
+/*
+En css tenemos 3 tipos de selectores
+1) mediante tag o etiqueta
+2) mediante atributo o clase
+3) mediante atributo de id
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*colocamos estilos aca*/
+    background-color: cadetblue;
+}
+header{
+    background-color: #525558;
+}
+header nav{
+    padding: 5px;
+}
+header nav a{
+    color: azure;
+    text-decoration: none;
+    font-size: xx-large;
+    margin: 10px;
+}

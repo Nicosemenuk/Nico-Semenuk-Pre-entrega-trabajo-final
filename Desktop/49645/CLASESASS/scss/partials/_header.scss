@@ -1,0 +1,24 @@
+@import "mixins";
+
+$color-fondo: rgb(41, 36, 32);
+$tipografia: Verdana, Geneva, Tahoma, sans-serif;
+
+header{
+    background-color: $color-fondo;
+    nav{
+        text-align: center;
+        // Mediante include tenemos los estilos de flex, previamente inportados
+        @include flex;
+        a{
+            color: aliceblue;
+            font-family: $tipografia;
+            text-decoration: none;
+            font-size: xx-large;
+            &:hover{
+                color: black;
+                font-weight: 300;
+                text-decoration: underline;
+            }
+        }
+    }
+}
